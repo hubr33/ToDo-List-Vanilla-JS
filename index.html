@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/f85160339b.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="todolist">
+
+        <div class="header">
+            <h1>TODO LIST</h1>
+            <input type="text" class="exe" placeholder="Wpisz treść zadania..." maxlength="40">
+            <button class="add">Dodaj notatkę</button>
+            <p class="max">Maksymalna ilość znaków to 40!</p>
+            <p class="error">Wpisz treść zadania!</p>
+        </div>
+
+        <div class="list">
+            <h2>Lista zadań:</h2>
+            <p class="show">Brak zadań na liście.</p>
+
+            <div class="newObjects">
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="editor">
+        <h2>Edytuj zadanie:</h2>
+        <p class="editor-error">Musisz podać jakąś treść!</p>
+        <input type="text" class="edit-text" placeholder="Wprowadź nową treść zadania..." maxlength="40">
+        <button class="accept">Zatwierdź</button>
+        <button class="cancel">Anuluj</button>
+    </div>
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
